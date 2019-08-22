@@ -2,10 +2,10 @@
 {
     'name': "Hidemenu",
 
-    'summary': "Hide Discuss and Calendar for users",
+    'summary': "Hide Discuss, Calendar and Contacts for users",
 
     'description': """
-        对一般用户隐藏"讨论"和"日历"菜单，菜单只对 group_hide_menus 组中的成员可见。
+        对一般用户隐藏"讨论"、"日历"和"联系人"菜单，菜单只对 group_hide_menus 组中的成员可见。
     """,
 
     'author': "Albert Lai",
@@ -18,7 +18,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['mail', 'calendar'],
+    'depends': ['mail', 'calendar', 'contacts'],
 
     # always loaded
     'data': [
